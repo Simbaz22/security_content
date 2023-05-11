@@ -1,0 +1,230 @@
+!!python/object:github.ContentFile.ContentFile
+_CompletableGithubObject__completed: false
+_content: &id001 !!python/object:github.GithubObject._NotSetType {}
+_download_url: !!python/object:github.GithubObject._ValuedAttribute
+  value: https://raw.githubusercontent.com/Simbaz22/security_content/develop/detections/endpoint/7zip_commandline_to_smb_share_path.yml
+_encoding: *id001
+_git_url: !!python/object:github.GithubObject._ValuedAttribute
+  value: https://api.github.com/repos/Simbaz22/security_content/git/blobs/9d5ee37152332758535bf43d4e4fb60bb946f1d9
+_headers:
+  access-control-allow-origin: '*'
+  access-control-expose-headers: ETag, Link, Location, Retry-After, X-GitHub-OTP,
+    X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource,
+    X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type,
+    X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+  cache-control: private, max-age=60, s-maxage=60
+  content-encoding: gzip
+  content-security-policy: default-src 'none'
+  content-type: application/json; charset=utf-8
+  date: Thu, 11 May 2023 22:08:42 GMT
+  etag: W/"4c5521092815e2cfc902557edbc21c0c511e79dd"
+  last-modified: Thu, 11 May 2023 20:15:18 GMT
+  referrer-policy: origin-when-cross-origin, strict-origin-when-cross-origin
+  server: GitHub.com
+  strict-transport-security: max-age=31536000; includeSubdomains; preload
+  transfer-encoding: chunked
+  vary: Accept, Authorization, Cookie, X-GitHub-OTP, Accept-Encoding, Accept, X-Requested-With
+  x-accepted-oauth-scopes: ''
+  x-content-type-options: nosniff
+  x-frame-options: deny
+  x-github-api-version-selected: '2022-11-28'
+  x-github-media-type: github.v3; format=json
+  x-github-request-id: F416:6D84:BF91C8:18A2D78:645D6769
+  x-oauth-scopes: admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key,
+    admin:repo_hook, admin:ssh_signing_key, audit_log, codespace, delete:packages,
+    delete_repo, project, repo, user, workflow, write:discussion, write:packages
+  x-ratelimit-limit: '5000'
+  x-ratelimit-remaining: '4985'
+  x-ratelimit-reset: '1683844596'
+  x-ratelimit-resource: core
+  x-ratelimit-used: '15'
+  x-xss-protection: '0'
+_html_url: !!python/object:github.GithubObject._ValuedAttribute
+  value: https://github.com/Simbaz22/security_content/blob/develop/detections/endpoint/7zip_commandline_to_smb_share_path.yml
+_license: *id001
+_name: !!python/object:github.GithubObject._ValuedAttribute
+  value: 7zip_commandline_to_smb_share_path.yml
+_path: !!python/object:github.GithubObject._ValuedAttribute
+  value: detections/endpoint/7zip_commandline_to_smb_share_path.yml
+_rawData:
+  _links:
+    git: https://api.github.com/repos/Simbaz22/security_content/git/blobs/9d5ee37152332758535bf43d4e4fb60bb946f1d9
+    html: https://github.com/Simbaz22/security_content/blob/develop/detections/endpoint/7zip_commandline_to_smb_share_path.yml
+    self: https://api.github.com/repos/Simbaz22/security_content/contents/detections/endpoint/7zip_commandline_to_smb_share_path.yml?ref=develop
+  download_url: https://raw.githubusercontent.com/Simbaz22/security_content/develop/detections/endpoint/7zip_commandline_to_smb_share_path.yml
+  git_url: https://api.github.com/repos/Simbaz22/security_content/git/blobs/9d5ee37152332758535bf43d4e4fb60bb946f1d9
+  html_url: https://github.com/Simbaz22/security_content/blob/develop/detections/endpoint/7zip_commandline_to_smb_share_path.yml
+  name: 7zip_commandline_to_smb_share_path.yml
+  path: detections/endpoint/7zip_commandline_to_smb_share_path.yml
+  sha: 9d5ee37152332758535bf43d4e4fb60bb946f1d9
+  size: 2837
+  type: file
+  url: https://api.github.com/repos/Simbaz22/security_content/contents/detections/endpoint/7zip_commandline_to_smb_share_path.yml?ref=develop
+_repository: *id001
+_requester: !!python/object:github.Requester.Requester
+  FIX_REPO_GET_GIT_REF: true
+  _Requester__app_auth: null
+  _Requester__authorizationHeader: token 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
+  _Requester__base_url: https://api.github.com
+  _Requester__connection: !!python/object:github.Requester.HTTPSRequestsConnectionClass
+    adapter: &id002 !!python/object:requests.adapters.HTTPAdapter
+      _pool_block: false
+      _pool_connections: 10
+      _pool_maxsize: 10
+      config: {}
+      max_retries: !!python/object:urllib3.util.retry.Retry
+        allowed_methods: &id003 !!python/object/apply:builtins.frozenset
+        - - TRACE
+          - HEAD
+          - OPTIONS
+          - GET
+          - DELETE
+          - PUT
+        backoff_factor: 0
+        connect: null
+        history: !!python/tuple []
+        other: null
+        raise_on_redirect: true
+        raise_on_status: true
+        read: false
+        redirect: null
+        remove_headers_on_redirect: !!python/object/apply:builtins.frozenset
+        - - authorization
+        respect_retry_after_header: true
+        status: null
+        status_forcelist: !!set {}
+        total: 0
+    headers:
+      Authorization: token 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
+      User-Agent: PyGithub/Python
+    host: api.github.com
+    input: null
+    pool_size: 10
+    port: 443
+    protocol: https
+    retry: 0
+    session: !!python/object:requests.sessions.Session
+      adapters: !!python/object/apply:collections.OrderedDict
+      - - - https://
+          - *id002
+        - - http://
+          - !!python/object:requests.adapters.HTTPAdapter
+            _pool_block: false
+            _pool_connections: 10
+            _pool_maxsize: 10
+            config: {}
+            max_retries: !!python/object:urllib3.util.retry.Retry
+              allowed_methods: *id003
+              backoff_factor: 0
+              connect: null
+              history: !!python/tuple []
+              other: null
+              raise_on_redirect: true
+              raise_on_status: true
+              read: false
+              redirect: null
+              remove_headers_on_redirect: !!python/object/apply:builtins.frozenset
+              - - authorization
+              respect_retry_after_header: true
+              status: null
+              status_forcelist: !!set {}
+              total: 0
+      auth: null
+      cert: null
+      cookies: !!python/object:requests.cookies.RequestsCookieJar
+        _cookies: {}
+        _now: 1683842911
+        _policy: !!python/object:http.cookiejar.DefaultCookiePolicy
+          _allowed_domains: null
+          _blocked_domains: !!python/tuple []
+          _now: 1683842911
+          hide_cookie2: false
+          netscape: true
+          rfc2109_as_netscape: null
+          rfc2965: false
+          secure_protocols: !!python/tuple
+          - https
+          - wss
+          strict_domain: false
+          strict_ns_domain: 0
+          strict_ns_set_initial_dollar: false
+          strict_ns_set_path: false
+          strict_ns_unverifiable: false
+          strict_rfc2965_unverifiable: true
+      headers: !!python/object:requests.structures.CaseInsensitiveDict
+        _store: !!python/object/apply:collections.OrderedDict
+        - - - user-agent
+            - !!python/tuple
+              - User-Agent
+              - python-requests/2.28.2
+          - - accept-encoding
+            - !!python/tuple
+              - Accept-Encoding
+              - gzip, deflate
+          - - accept
+            - !!python/tuple
+              - Accept
+              - '*/*'
+          - - connection
+            - !!python/tuple
+              - Connection
+              - keep-alive
+      hooks:
+        response: []
+      max_redirects: 30
+      params: {}
+      proxies: {}
+      stream: false
+      trust_env: true
+      verify: true
+    timeout: 15
+    url: /repos/mts-engineering/SIEM_Management/contents/
+    verb: GET
+    verify: true
+  _Requester__connectionClass: !!python/name:github.Requester.HTTPSRequestsConnectionClass ''
+  _Requester__hostname: api.github.com
+  _Requester__installation_authorization: null
+  _Requester__logger: !!python/object/apply:logging.getLogger
+  - github.Requester
+  _Requester__pool_size: null
+  _Requester__port: null
+  _Requester__prefix: ''
+  _Requester__retry: null
+  _Requester__scheme: https
+  _Requester__timeout: 15
+  _Requester__userAgent: PyGithub/Python
+  _Requester__verify: true
+  _frameBuffer: []
+  _frameCount: 0
+  oauth_scopes:
+  - admin:enterprise
+  - admin:gpg_key
+  - admin:org
+  - admin:org_hook
+  - admin:public_key
+  - admin:repo_hook
+  - admin:ssh_signing_key
+  - audit_log
+  - codespace
+  - delete:packages
+  - delete_repo
+  - project
+  - repo
+  - user
+  - workflow
+  - write:discussion
+  - write:packages
+  per_page: 30
+  rate_limiting: !!python/tuple
+  - 4981
+  - 5000
+  rate_limiting_resettime: 1683844596
+_sha: !!python/object:github.GithubObject._ValuedAttribute
+  value: 9d5ee37152332758535bf43d4e4fb60bb946f1d9
+_size: !!python/object:github.GithubObject._ValuedAttribute
+  value: 2837
+_text_matches: *id001
+_type: !!python/object:github.GithubObject._ValuedAttribute
+  value: file
+_url: !!python/object:github.GithubObject._ValuedAttribute
+  value: https://api.github.com/repos/Simbaz22/security_content/contents/detections/endpoint/7zip_commandline_to_smb_share_path.yml?ref=develop
